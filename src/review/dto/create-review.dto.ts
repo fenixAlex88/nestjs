@@ -8,7 +8,7 @@ export class CreateReviewDto {
 	title: string;
 
 	@IsString()
-	discription: string;
+	description: string;
 
 	@Max(5)
 	@Min(1)
